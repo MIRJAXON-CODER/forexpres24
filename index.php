@@ -31,7 +31,7 @@
 	$arr1 = [1,2,3,4,5];
 	$arr2 = [1,2,3,4,5];
 	$result = forTask::getNum($arr1)+forTask::getNum($arr1);
-	$newArr = (forTask::getArray($result));
+	$newArr = forTask::getArray($result);
 	print_r($newArr);
 	
  ?>
